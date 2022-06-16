@@ -15,7 +15,7 @@ function Skills() {
           alignItems: "center",
           justifyContent: "center",
           height: "100vh",
-          paddingBottom: 20,
+          paddingBottom: { xs: 5, md: 20 },
         }}
       >
         <Box p={5}>

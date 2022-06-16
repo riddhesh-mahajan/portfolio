@@ -3,10 +3,13 @@ import "./App.css";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
+import Fixed from "./components/Fixed/Fixed";
 
 function App() {
   return (
     <>
+      <Fixed />
+
       <Hero />
 
       <Container>

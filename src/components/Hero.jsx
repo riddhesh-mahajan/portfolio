@@ -15,10 +15,14 @@ function Hero() {
     >
       <Typography
         sx={{ fontFamily: "Dancing Script", fontWeight: "bold", fontSize: 80 }}
+        textAlign="center"
       >
         Riddhesh Mahajan
       </Typography>
-      <Typography sx={{ fontSize: "2rem", marginTop: "1rem" }}>
+      <Typography
+        sx={{ fontSize: "2rem", marginTop: "1rem" }}
+        textAlign="center"
+      >
         MERN Stack Developer
       </Typography>
     </Box>
